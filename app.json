@@ -13,22 +13,16 @@
       "value":".",
       "required":true
     },
-	  "AUTO_REACT":
+	  "ANTICALL":
     {
-      "description":"Enter yes for your bot to auto react",
-      "value":"no",
+      "description":"Enter yes for your bot to reject calls",
+      "value":"yes",
       "required":false
     },
 	    "AUTO_REACT_STATUS":
     {
       "description":"Enter yes for your bot to auto react status",
       "value":"yes",
-      "required":false
-    },
-	    "AUTO_READ":
-    {
-      "description":"Enter yes for your bot to auto read",
-      "value":"no",
       "required":false
     },
     "AUTO_READ_STATUS":
