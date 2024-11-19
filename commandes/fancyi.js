@@ -29,7 +29,7 @@ zokou({
           'image': {
             'url': _0x52a93a[0].thumbnail
           },
-          'caption': "YOUTUBE SEARCH\n\n 🤠by YESSERTECH"
+          'caption': "YOUTUBE SEARCH\n\n  © YESSER TECH"
         };
         await _0x1895de.sendMessage(_0x3643ec, _0x53fc88, {
           'quoted': _0x34f844
@@ -135,7 +135,7 @@ zokou({
           'image': {
             'url': _0x43a4ee[0].thumbnail
           },
-          'caption': "YOUTUBE SEARCH\n\n 🤠by YESSERTECH"
+          'caption': "YOUTUBE SEARCH\n\n © YESSER TECH"
         };
         await _0x1dc8a0.sendMessage(_0x80c678, _0x232b70, {
           'quoted': _0xfb7714
