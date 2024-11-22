@@ -27,12 +27,12 @@ const date = moment().format('DD/MM/YYYY');
   let infoMsg =  `
 ╭━━〔 *${s.BOT}* 〕━━┈⊷
 ┃⊛╭───────────
-┃⊛│◆ 𝗢𝘄𝗻𝗲𝗿 : ${s.PUSH_NAME}
-┃⊛│◆ 𝗣𝗿𝗲𝗳𝗶𝘅 : [ ${s.PREFIXE} ] 
-┃⊛│◆ 𝗠𝗼𝗱𝗲 : *${mode}*
-┃⊛│◆ 𝗥𝗮𝗺  : 𝟴/𝟭𝟯𝟮 𝗚𝗕
-┃⊛│◆ 𝗗𝗮𝘁𝗲  : *${date}* 
-┃⊛│◆ 𝗣𝗹𝗮𝘁𝗳𝗼𝗿𝗺 : 𝗖𝗵𝗿𝗼𝗺𝗲 𝗟𝗶𝗻𝘂𝘅
+┃⊛│◆ USER : ${${nomAuteurMessage} }
+┃⊛│◆ PREFIX : [ ${s.PREFIXE} ] 
+┃⊛│◆ MODE : *${mode}*
+┃⊛│◆ RAM  : 𝟴/𝟭𝟯𝟮 𝗚𝗕
+┃⊛│◆ DATE  : *${date}* 
+┃⊛│◆ PLATF : 𝗖𝗵𝗿𝗼𝗺𝗲 𝗟𝗶𝗻𝘂𝘅
 ┃⊛└───────────☆
 ╰──────────────☆\n${readmore}`;
     let menuMsg = `YESSER MD`;
