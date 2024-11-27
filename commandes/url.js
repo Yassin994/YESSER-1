@@ -1,13 +1,11 @@
-/* (c) souravkl11/raganork
-You may not use this file except compliance with license!
-*/
+
 const e = require('../events');
 const { MessageType } = require('@adiwajshing/baileys');
 const w = require('../config');
 const v = w.SUPPORT2
 const {upload} = require('raganork-bot');
 let a = w.WORKTYPE == 'public' ? false : true;
-e.addCommand({pattern: 'url ?(.*)', fromMe: a, desc:'Uploads image to imgur.com'}, (async (m, match) => { 
+e.addCommand({pattern: 'u', fromMe: a, desc:'Uploads image to imgur.com'}, (async (m, match) => { 
 if (!m.reply_message.image && !m.reply_message.video ) return;
 var q = await m.client.downloadAndSaveMediaMessage({key: {remoteJid: m.reply_message.jid,id: m.reply_message.id},message: m.reply_message.data.quotedMessage});
 var res = await upload(q,v)
