@@ -10,16 +10,16 @@ const {
 } = require("@whiskeysockets/baileys");
 
 // bug database
-const { bugtext1 } = require("../framework/fre/bugtext1");
-const { bugtext2 } = require("../framework/fre/bugtext2");
-const { bugtext3 } = require("../framework/fre/bugtext3");
-const { bugtext4 } = require("../framework/fre/bugtext4");
-const { bugtext5 } = require("../framework/fre/bugtext5");
-const { bugtext6 } = require("../framework/fre/bugtext6");
-const { bugpdf } = require("../framework/fre/bugpdf.js");
+const { bugtext1 } = require("../framework/Bug/bugtext1");
+const { bugtext2 } = require("../framework/Bug/bugtext2");
+const { bugtext3 } = require("../framework/Bug/bugtext3");
+const { bugtext4 } = require("../framework/Bug/bugtext4");
+const { bugtext5 } = require("../framework/Bug/bugtext5");
+const { bugtext6 } = require("../framework/Bug/bugtext6");
+const { bugpdf } = require("../framework/Bug/bugpdf.js");
 
 const category = "Bug-cmds";
-const reaction = "🤯";
+const reaction = "🤠";
 
 const mess = {};
 mess.prem = "You are not authorised to use this  command !!!";
