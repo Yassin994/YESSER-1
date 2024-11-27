@@ -2,9 +2,9 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 const { zokou } = require("../framework/zokou");
 
-zokou({ nomCom: "repo", catégorie:"Général", reaction: "🔎", nomFichier: __filename }, async (dest, zk, commandeOptions) => {
-  const githubRepo = 'https://api.github.com/repos/Yassin994/Zombie';
-  const img = https://files.catbox.moe/won03k.jpeg';
+zokou({ nomCom: "repo", catégorie:"Général", reaction: "🌚", nomFichier: __filename }, async (dest, zk, commandeOptions) => {
+  const githubRepo = 'https://api.github.com/repos/Yassin994/YESSER-MD';
+  const img https://files.catbox.moe/44l78z.jpg';
 
   try {
     const response = await fetch(githubRepo);
@@ -22,9 +22,9 @@ zokou({ nomCom: "repo", catégorie:"Général", reaction: "🔎", nomFichier: __
       const lastUpdateDate = new Date(data.updated_at).toLocaleDateString('en-GB');
 
       const gitdata = `*Hey Pal? You love the bot Right?*\n  
-      *zombie md*
+      *YESSER MD*
 ╭─────────────────
-││ *𝐒𝐞𝐬𝐬𝐢𝐨𝐧* https://yesser.onrender.com/
+││ *𝐒𝐞𝐬𝐬𝐢𝐨𝐧* https://yesser.onrender.com
 ││ *𝐑𝐞𝐩𝐨:* ${data.html_url}
 ││ *𝐒𝐭𝐚𝐫𝐬:* ${repoInfo.stars}
 ││ *𝐅𝐨𝐫𝐤𝐬:* ${repoInfo.forks}
