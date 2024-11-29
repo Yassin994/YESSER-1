@@ -21,22 +21,21 @@ zokou({ nomCom: "repo", catégorie:"Général", reaction: "🙄", nomFichier: __
       const releaseDate = new Date(data.created_at).toLocaleDateString('en-GB');
       const lastUpdateDate = new Date(data.updated_at).toLocaleDateString('en-GB');
 
-      const gitdata = ` *Hellow User
-This Is* *YESSIR-MD.*\n _Support Our Channel_ *by*,  https://whatsapp.com/channel/0029VakA1mu35fM18opH1s30
+      const gitdata = ` *𝑯𝒆𝒍𝒍𝒐𝒘 𝒇𝒓𝒊𝒆𝒏𝒅 𝒕𝒉𝒊𝒔 𝒊𝒔 * *𝗬𝗘𝗦𝗦𝗘𝗥 𝗠𝗗.*\n _𝑾𝒆𝒍𝒄𝒐𝒎𝒆 𝒕𝒐 𝒎𝒚 𝒄𝒉𝒂𝒏𝒏𝒆𝒍_ *𝒕𝒉𝒓𝒐𝒖𝒏𝒈*,  https://whatsapp.com/channel/0029VakA1mu35fM18opH1s30
 
-🗼 *REPOSITORY:* ${data.html_url}
+🤠 *𝑅𝐸𝑃𝑂𝑆𝐼𝑇𝑂𝑅𝑌:* ${data.html_url}
 
-🕐 *UPDATE ON:* ${repoInfo.lastUpdate}
+🕐 *𝑈𝑃 𝐷𝐴𝑇𝐸𝐷 𝑂𝑁 :* ${repoInfo.lastUpdate}
 ⊷━━━━━━☆•∞•☆━━━━━━⊷  
 
  ╭━━═✺ *𝚈𝙴𝚂𝚂𝙴𝚁* ✺═━━⊷
  │┌═━━⊷•∞•⊷━━─⊛
- │┊❁*VISITORS:* ${repoInfo.visitors}
- │┊❁ *STARS:* ${repoInfo.stars}
- │┊❁ *FORKS:* ${repoInfo.forks}
- │┊❁ *RELEASE DATE:* ${releaseDate}
- │┊❁ *OWNER:* *𝐲𝐞𝐬𝐬𝐞𝐫𝐭𝐞𝐜𝐡*
- │┊❁ *THEME:* *𝐦𝐲𝐜𝐚𝐫*
+ │┊❁*𝐯𝐢𝐬𝐢𝐭𝐨𝐫:* ${repoInfo.visitors}
+ │┊❁ *𝐬𝐭𝐚𝐫𝐬:* ${repoInfo.stars}
+ │┊❁ *𝐟𝐨𝐫𝐤𝐬:* ${repoInfo.forks}
+ │┊❁ *𝐫𝐞𝐥𝐞𝐬𝐞𝐝 𝐝𝐚𝐭𝐞:* ${releaseDate}
+ │┊❁ *𝐜𝐫𝐞𝐚𝐭𝐨𝐫:* *𝐲𝐞𝐬𝐬𝐞𝐫𝐭𝐞𝐜𝐡*
+ │┊❁ *𝐭𝐡𝐞𝐦:* *𝐦𝐲𝐜𝐚𝐫*
  │┊❁ *𝓌ℯ 𝒶𝓁𝓌𝒶𝓎𝓈 𝓁ℴ𝓋ℯ 𝓎ℴ𝓊❤️*
  │└═━━⊷•∞•⊷━━─⊛
  ╰━━━═⊷✺•∞•✺⊷═━━━⊷ 
