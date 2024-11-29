@@ -16,7 +16,7 @@ zokou(
   {
     nomCom: 'ping',
     categorie: 'General',
-    reaction: '🚀',
+    reaction: '🚴',
     alias: ['p']
   },
 
@@ -26,7 +26,7 @@ zokou(
     } = commandOptions;
     const start = new Date().getTime();
     const msg = await zk.sendMessage(dest, {
-      text: '*Testing Ping!!!*',
+      text: '*𝒏𝒐 𝒍𝒐𝒗𝒆 𝒏𝒐 𝒔𝒕𝒓𝒆𝒔𝒔.✍︎*',
     }, {
       quoted: ms
     });
