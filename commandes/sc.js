@@ -8,7 +8,7 @@ const s = require(__dirname + "/../set");
 const more = String.fromCharCode(8206)
 const readmore = more.repeat(4001)
 
-zokou({ nomCom: "sc", categorie: "My Contact" }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "info", categorie: "My Contact" }, async (dest, zk, commandeOptions) => {
     let { ms, repondre ,prefixe,nomAuteurMessage,mybotpic} = commandeOptions;
     let { cm } = require(__dirname + "/../framework//zokou");
     var coms = {};
@@ -35,28 +35,23 @@ const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
 ❂━━━════──⊷──════━━━❂
-   *INFORMATION ABOUT ME* 
-▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒
+   ⚠︎𝐦𝐲 𝐢𝐧𝐟𝐨.........✍︎
 ❂━━━➳════⊷════➳━━━━❂
 
-*GITHUB LINK*
+*𝚐𝚋 𝚕𝚒𝚗𝚔*
 > https://github.com/yassin994
-
-*YouTube channel*
+*𝚢𝚝 𝚌𝚑𝚊𝚗𝚗𝚎𝚕*
 >https://www.youtube.com/@Yesserboy92
-
-*FOR DEVELOPER T.ME*
+*𝚋𝚘𝚝 𝚘𝚠𝚗𝚎𝚛*
 > https://wa.me/255621995482
-
-*WHATSAPP CHANNEL*
-> https://whatsapp.com/channel/0029VaiMm7d4yltT51HS1T1G 
-
-*FOR MORE INFO TAP ON THE LINK BELOW*
+*𝚠𝚊 𝚌𝚑𝚊𝚗𝚗𝚎𝚕*
+> https://whatsapp.com/channel/0029VakA1mu35fM18opH1s30 
+*𝚋𝚘𝚝 𝚛𝚘𝚘𝚖*
 > https://github.com/yassin994/YESSER-MD
 ╭──━━━━═════════━━━━⦿
 ┃ ❂━━━════➳════━━━━❂
-┃▓▒⁠⁠⁠⁠ *RAM* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
-┃▓▒ *DEV* : *yesser BOT*
+┃▓▒⁠⁠⁠⁠ *ℝ𝔸𝕄* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
+┃▓▒ *𝔻𝔼𝕍* : *𝐲𝐞𝐬𝐬𝐞𝐫𝐭𝐞𝐜𝐡*
 ┃ ❂━━━════➳════━━━━❂
 ⁠⁠⁠⁠╰──━━━━═════════━━━━⦿ 
   `;
@@ -64,11 +59,11 @@ const date = moment().format('DD/MM/YYYY');
 let menuMsg = `
      ╭──━━━━══⊷══━━━━⦿
      ┃ ❂━━━━━━━━━━━━❂
-     ┃▓ yesser MD 😎
+     ┃⚠︎ 𝐘𝐄𝐒𝐒𝐄𝐑 𝐌𝐃
      ┃ ❂━━━━━━━━━━━━❂
      ╰──━━━━══⊷══━━━━⦿
 ❂━━━━═════⊷═════━━━━❂
-▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒
+▒♫︎ 𝐰𝐞 𝐥𝐞𝐟𝐭 𝐜𝐡𝐮𝐫𝐜𝐡 𝐧𝐨𝐭 𝐆𝐎𝐃..✞︎
 ❂━━━════──➳──════━━━❂`;
 
    var lien = mybotpic();
