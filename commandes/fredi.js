@@ -14,7 +14,7 @@ const s = require(__dirname + "/../set");
 
 
 
-zokou({ nomCom: "list", categorie: "Menu" }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "help", categorie: "Menu" }, async (dest, zk, commandeOptions) => {
 
     let { ms, repondre ,prefixe,nomAuteurMessage,mybotpic} = commandeOptions;
 
@@ -66,24 +66,24 @@ const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
 
-┏❏ ⌜  𝕐𝔼𝕊𝕊𝔼ℝ 𝕄𝔻  ⌟ ❐
-┃ ⿻𝕄𝕠𝕕𝕖: ${mode}
-┃ ⿻𝕌𝕤𝕖𝕣 : ${s.OWNER_NAME}
-┃ ⿻𝕃𝕚𝕓𝕣𝕒𝕣𝕪 : Baileys
-️┃ ⿻ℙ𝕣𝕖𝕗𝕚𝕩 : ${s.PREFIXE}
-️┃ ⿻𝔻𝕒𝕥𝕖 : ${date}
-┃ ⿻𝕋𝕚𝕞𝕖 : ${temps}
-┃ ⿻𝕋𝕠𝕠𝕝𝕤 : ${cm.length}
-┃ ⿻ℝ𝕒𝕞 : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
-┃ ⿻ℍ𝕠𝕤𝕥 : ${os.platform()}
-┗❏\n\n`;
+┏༄ ⌜  ʏᴇssᴇʀ ᴍᴅ ⌟ ༄
+┃ ⿻ᴍᴏᴅᴇ: ${mode}
+┃ ⿻ᴜsᴇʀ : ${s.OWNER_NAME}
+┃ ⿻ᴄʀᴇᴀᴛᴏʀ : ʏᴇssᴇʀᴛᴇᴄʜ
+️┃ ⿻ᴘʀᴇғɪx : ${s.PREFIXE}
+️┃ ⿻ᴅᴀᴛᴇ : ${date}
+┃ ⿻ᴛɪᴍᴇ : ${temps}
+┃ ⿻ᴛᴏᴏʟs : ${cm.length}
+┃ ⿻RAM : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
+┃ ⿻SITE : ${os.platform()}
+┗༄\n\n`;
 
 
     
 
 let menuMsg = `
 > ┏━━━━━━━━━┓
-> ┣➠YESSER cmds
+> ┣ʏᴇssᴇʀ ᴍᴅ
 > ┗━━━━━━━━━┛\n
 
 
@@ -93,7 +93,7 @@ let menuMsg = `
 
     for (const cat in coms) {
 
-        menuMsg += `┏❏ *${cat}*`;
+        menuMsg += `┏༄ *${cat}*`;
 
         for (const cmd of coms[cat]) {
 
@@ -103,7 +103,7 @@ let menuMsg = `
         }
 
         menuMsg += `
-┗❏\n`
+┗༄\n`
 
     }
 
@@ -113,11 +113,11 @@ let menuMsg = `
 
 
 > ┏━━━━━━━━━━━━━━┓
-> ┣➠YESSER md 😎 2024
-> ┣➠Enjoy life  
+> ┣➠ɴᴇᴡ ᴠɪsɪᴏɴ
+> ┣➠ᴡᴇ ʟᴇғᴛ ᴄʜᴜʀᴄʜ ɴᴏᴛ ɢᴏᴅ  
 > ┗┳━━━━━━━━━━━━┳┛
 > ┏┻━━━━━━━━━━━━┻┓
-> ┃➠powered by YESSER Tech
+> ┃➠ᴄᴏᴅᴇ ʙʏ ʏᴇssᴇʀᴛᴇᴄʜ
 > ┗━━━━━━━━━━━━━━┛\n
 
 
