@@ -2,9 +2,9 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 const { zokou } = require("../framework/zokou");
 
-zokou({ nomCom: "repo", catégorie:"Général", reaction: "🌚", nomFichier: __filename }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "repo", catégorie:"Général", reaction: "⚙️", nomFichier: __filename }, async (dest, zk, commandeOptions) => {
   const githubRepo = 'https://api.github.com/repos/Yassin994/YESSER-MD';
-  const img 'https://files.catbox.moe/44l78z.jpg';
+  const img = 'https://files.catbox.moe/xee8ol.jpg';
 
   try {
     const response = await fetch(githubRepo);
@@ -21,20 +21,27 @@ zokou({ nomCom: "repo", catégorie:"Général", reaction: "🌚", nomFichier: __
       const releaseDate = new Date(data.created_at).toLocaleDateString('en-GB');
       const lastUpdateDate = new Date(data.updated_at).toLocaleDateString('en-GB');
 
-      const gitdata = `*Hey Pal? You love the bot Right?*\n  
-      *YESSER MD*
-╭─────────────────
-││ *𝐒𝐞𝐬𝐬𝐢𝐨𝐧* https://yesser.onrender.com
-││ *𝐑𝐞𝐩𝐨:* ${data.html_url}
-││ *𝐒𝐭𝐚𝐫𝐬:* ${repoInfo.stars}
-││ *𝐅𝐨𝐫𝐤𝐬:* ${repoInfo.forks}
-││ *𝐑𝐞𝐥𝐞𝐚𝐬𝐞 𝐃𝐚𝐭𝐞:* ${releaseDate}
-││ *𝐔𝐩𝐝𝐚𝐭𝐞𝐝:* ${repoInfo.lastUpdate}
-││ *𝐎𝐰𝐧𝐞𝐫:* yessertech
-││ *𝐂𝐡𝐚𝐧𝐧𝐞𝐥:* https://whatsapp.com/channel/0029VakA1mu35fM18opH1s30
-││ *𝐘𝐨𝐮𝐭𝐮𝐛𝐞:* https://www.youtube.com/@Yesserboy92
-╰─────────────────
-          *role by yessertech*`;
+      const gitdata = ` *Hellow User
+This Is* *YESSIR-MD.*\n _Support Our Channel_ *by*,  https://whatsapp.com/channel/0029VaihcQv84Om8LP59fO3f
+
+🗼 *REPOSITORY:* ${data.html_url}
+
+🕐 *UPDATE ON:* ${repoInfo.lastUpdate}
+⊷━━━━━━☆•∞•☆━━━━━━⊷  
+
+ ╭━━═✺ *FE255* ✺═━━⊷
+ ┊│┌═━━⊷•∞•⊷━━─⊛
+ ┊│┊❁*VISITORS:* ${repoInfo.visitors}
+ ┊│┊❁ *STARS:* ${repoInfo.stars}
+ ┊│┊❁ *FORKS:* ${repoInfo.forks}
+ ┊│┊❁ *RELEASE DATE:* ${releaseDate}
+ ┊│┊❁ *OWNER:* *YAssin tech*
+ ┊│┊❁ *THEME:* *FE255*
+ ┊│┊❁ *ENJOY TO USE YESSIR MD*
+ ┊│└═━━⊷•∞•⊷━━─⊛
+ ╰━━━═⊷✺•∞•✺⊷═━━━⊷ 
+ 
+ > Dont Forget Fork And Star Please `;
 
       await zk.sendMessage(dest, { image: { url: img }, caption: gitdata });
     } else {
