@@ -4,7 +4,7 @@ const { zokou } = require("../framework/zokou");
 
 zokou({ nomCom: "repo", catégorie:"Général", reaction: "⚙️", nomFichier: __filename }, async (dest, zk, commandeOptions) => {
   const githubRepo = 'https://api.github.com/repos/Yassin994/YESSER-MD';
-  const img = 'https://files.catbox.moe/xee8ol.jpg';
+  const img = 'https://files.catbox.moe/44l78z.jpg';
 
   try {
     const response = await fetch(githubRepo);
@@ -30,15 +30,15 @@ This Is* *YESSIR-MD.*\n _Support Our Channel_ *by*,  https://whatsapp.com/channe
 ⊷━━━━━━☆•∞•☆━━━━━━⊷  
 
  ╭━━═✺ *FE255* ✺═━━⊷
- ┊│┌═━━⊷•∞•⊷━━─⊛
- ┊│┊❁*VISITORS:* ${repoInfo.visitors}
- ┊│┊❁ *STARS:* ${repoInfo.stars}
- ┊│┊❁ *FORKS:* ${repoInfo.forks}
- ┊│┊❁ *RELEASE DATE:* ${releaseDate}
- ┊│┊❁ *OWNER:* *YAssin tech*
- ┊│┊❁ *THEME:* *FE255*
- ┊│┊❁ *ENJOY TO USE YESSIR MD*
- ┊│└═━━⊷•∞•⊷━━─⊛
+ │┌═━━⊷•∞•⊷━━─⊛
+ │┊❁*VISITORS:* ${repoInfo.visitors}
+ │┊❁ *STARS:* ${repoInfo.stars}
+ │┊❁ *FORKS:* ${repoInfo.forks}
+ │┊❁ *RELEASE DATE:* ${releaseDate}
+ │┊❁ *OWNER:* *YAssin tech*
+ │┊❁ *THEME:* *FE255*
+ │┊❁ *ENJOY TO USE YESSIR MD*
+ │└═━━⊷•∞•⊷━━─⊛
  ╰━━━═⊷✺•∞•✺⊷═━━━⊷ 
  
  > Dont Forget Fork And Star Please `;
