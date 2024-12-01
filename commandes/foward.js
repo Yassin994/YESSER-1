@@ -6,7 +6,7 @@ const { default: axios } = require('axios');
 zokou(
  {
   nomCom: "foward",
-  categorie: "My Contact",
+  categorie: "mod",
   desc: "Forwards the replied message",
   reaction: "🔎",
   fromMe: "true", 
