@@ -1,10 +1,16 @@
+const { zokou } = require("../framework/zokou");
+const { delay, loading, react } = require("../framework/mesfonction");
+const moment = require("moment-timezone");
+const conf = require("../set.js");
+const fs = require("fs");
+const path = require("path");
 const {
     smd,
     tlang,
     prefix,
-     } = require('../lib')
-smd({
-    cmdname: "getall",
+     } = require('../set')
+zokou({
+    nomCom: "getall",
     desc: "get jid of all members of groups/pm chats/all groups.",
     type: "owner",
     fromMe:true,
