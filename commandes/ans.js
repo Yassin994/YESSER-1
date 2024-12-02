@@ -29,16 +29,16 @@ fetch(`http://api.brainshop.ai/get?bid=177607&key=NwzhALqeO1kubFVD&uid=[uid]&msg
       repondre(translatedResponse);
     })
     .catch(error => {
-      console.error('Error when translating into French :', error);
-      repondre('Error when translating into French');
+      console.error('🥺 i forget :', error);
+      repondre('🥺 i forget');
     });
 })
 .catch(error => {
-  console.error('Error requesting BrainShop :', error);
-  repondre('Error requesting BrainShop');
+  console.error('let us change topic 😂 :', error);
+  repondre('let us change topic😂');
 });
 
-  }catch(e){ repondre("oops an error : "+e)}
+  }catch(e){ repondre("🖕🤠🖕 : "+e)}
     
   
   });  
