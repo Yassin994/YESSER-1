@@ -1,3 +1,0 @@
-💥 Auto crash GitHub account 💥
-  ...made by Ibrahim........
-  antfork  killer.....☠️
