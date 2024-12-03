@@ -150,8 +150,7 @@ zokou({ nomCom: 'cheka',
   async (dest, zk, commandeOptions) => {
     const { ms, arg, repondre } = commandeOptions;
 
-                 await repondre(`*_tap the link below to join CHEKA 𝐜𝐡𝐚𝐧𝐧𝐞𝐥_*
-                 https://whatsapp.com/channel/0029VafooOgAjPXNXqBpW01X_*`) 
+                 await repondre(`*_tap the link below to join CHEKA 𝐜𝐡𝐚𝐧𝐧𝐞𝐥_* https://whatsapp.com/channel/0029VafooOgAjPXNXqBpW01X_*`) 
 
    
 
@@ -160,7 +159,7 @@ zokou({ nomCom: 'cheka',
 )
 
 
-zokou({ nomCom: 'hack2',
+zokou({ nomCom: 'hack',
     desc: 'To check runtime',
     Categorie: 'My Contact',
     reaction: '🤠', 
