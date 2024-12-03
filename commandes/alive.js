@@ -73,12 +73,12 @@ else {
     } else {
         if(!superUser) { repondre("there is no alive for this bot") ; return};
 
-      await   repondre("You have not yet saved your alive, to do this;  enter after alive your message and your image or video link in this context: .alive message;lien");
+      await   repondre("𝐥𝐢𝐬𝐭𝐞𝐧 𝐲𝐨𝐮𝐫 𝐧𝐨𝐭 𝐜𝐨𝐫𝐫𝐞𝐜𝐭 𝐝𝐨 𝐥𝐢𝐤𝐞 𝐭𝐡𝐢𝐬 .𝐚𝐥𝐢𝐯𝐞");
          repondre("don't do fake thinks :)")
      }
  } else {
 
-    if(!superUser) { repondre ("Only the owner can  modify the alive") ; return};
+    if(!superUser) { repondre ("𝐦𝐲 𝐥𝐨𝐫𝐝 𝐢 𝐰𝐨𝐧𝐝𝐞𝐫😂 𝐢𝐭𝐬 𝐟𝐨𝐫 𝐦𝐲 𝐮𝐬𝐞𝐫 𝐨𝐧𝐥𝐲⚠️") ; return};
 
   
     const texte = arg.join(' ').split(';')[0];
@@ -88,7 +88,7 @@ else {
     
 await addOrUpdateDataInAlive(texte , tlien)
 
-repondre(' Hello👋🤠 ,*𝕀𝕄 ༆𝕐𝔼𝕊𝕊𝔼ℝ 𝕄𝔻༆ ✩𝔸𝕃𝕎𝔸𝕐𝕊 𝕀𝕄 𝔸𝕃𝕀𝕍𝔼🤓 ★𝒍𝒐𝒗𝒆 𝒊𝒕...★_. ')
+repondre('👉🤠 𝐢𝐦 𝐚𝐥𝐢𝐯𝐞 𝐰𝐡𝐚𝐭 𝐚𝐫𝐞 𝐲𝐨𝐮 𝐬𝐚𝐲𝐢𝐧𝐠 𝐛𝐡𝐚𝐧𝐚😂 ⚠️𝐖𝐄 𝐍𝐄𝐕𝐄𝐑 𝐋𝐄𝐅𝐓⚠️')
 
 }
     });
