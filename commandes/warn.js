@@ -21,19 +21,19 @@ if(verifAdmin || superUser) {
    let warn = await getWarnCountByJID(auteurMsgRepondu)
    let warnlimit = s.WARN_COUNT
    
-   if( warn >= warnlimit ) { await repondre('this user reach limit of warning , so i kick him/her');
+   if( warn >= warnlimit ) { await repondre('𝘁𝗵𝗶𝘀 𝗳𝘂𝗰𝗸𝗲𝗿 𝗿𝗲𝗮𝗰𝗴 𝗹𝗶𝗺𝗶𝘁 𝗼𝗳 𝘄𝗮𝗿𝗻𝗶𝗻𝗴  , 𝘀𝗼 𝗮𝘀 𝗮𝗱𝗺𝗶𝗻 𝗶 𝗸𝗶𝗰𝗸 𝘁𝗵𝗶𝘀 𝘀𝘁𝘂𝗽𝗶𝗱.!');
                 zk.groupParticipantsUpdate(dest, [auteurMsgRepondu], "remove")
  } else { 
 
     var rest = warnlimit - warn ;
-     repondre(`this user is warn , rest before kick : ${rest} `)
+     repondre(`𝘀𝘁𝘂𝗽𝗶𝗱.! 𝗿𝗲𝗺𝗼𝘃𝗲𝗱 𝗶𝘀 𝗹𝗼𝗼𝗱𝗶𝗻𝗴....😡 : ${rest} `)
    }
 } else if ( arg[0] === 'reset') { await resetWarnCountByJID(auteurMsgRepondu) 
 
-    repondre("Warn count is reset for this user")} else ( repondre('reply to a user by typing  .warn ou .warn reset'))
+    repondre("𝘀𝘁𝘂𝗽𝗶𝗱.! 𝗿𝗲𝗺𝗼𝘃𝗲𝗱 𝗶𝘀 𝗹𝗼𝗼𝗱𝗶𝗻𝗴... 😡")} else ( repondre('reply to a user by typing  .warn ou .warn reset'))
    
 }  else {
-    repondre('you are not admin')
+    repondre('🤠𝗬𝗢𝗨𝗥 𝗡𝗢𝗧 𝗔𝗗𝗠𝗜𝗡 𝗛𝗘𝗥𝗘 𝗠𝗬 𝗙𝗥𝗜𝗘𝗡𝗗.')
 }
  
    });
