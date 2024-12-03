@@ -129,7 +129,7 @@ zokou({ nomCom: 'vision',
   async (dest, zk, commandeOptions) => {
     const { ms, arg, repondre } = commandeOptions;
 
-                 await repondre(`*_YESSER  MD_*`) 
+                 await repondre(`*_𝐛𝐨𝐭 𝐜𝐫𝐚𝐭𝐞𝐝 𝐛𝐲 𝚈𝙴𝚂𝚂𝙴𝚁 𝚃𝙴𝙲𝙷🤠𝐯𝐢𝐬𝐢𝐨𝐧 𝐢𝐬 97162963^𝐬𝐯_*`) 
 
    
 
@@ -150,7 +150,8 @@ zokou({ nomCom: 'cheka',
   async (dest, zk, commandeOptions) => {
     const { ms, arg, repondre } = commandeOptions;
 
-                 await repondre(`*_tap the link below to join CHEKA CHANNEL= https://whatsapp.com/channel/0029VafooOgAjPXNXqBpW01X_*`) 
+                 await repondre(`*_tap the link below to join CHEKA 𝐜𝐡𝐚𝐧𝐧𝐞𝐥_*
+                 https://whatsapp.com/channel/0029VafooOgAjPXNXqBpW01X_*`) 
 
    
 
@@ -200,10 +201,10 @@ zokou({ nomCom: 'hack2',
 
 
 
-zokou({ nomCom: 'problem',
+zokou({ nomCom: '2025',
     desc: 'To check runtime',
     Categorie: 'General',
-    reaction: '🔎', 
+    reaction: '🎅', 
     fromMe: 'true', 
 
 
@@ -211,20 +212,17 @@ zokou({ nomCom: 'problem',
   async (dest, zk, commandeOptions) => {
     const { ms, arg, repondre } = commandeOptions;
 
-                 await repondre(`*_┏━━━━━━━━━━━━━━
-┃YESSER-MD 
-| 
-┃   
+                 await repondre(`*_┏━━━━━━━━━━━━━•••
+┃   🤶𝗬𝗘𝗦𝗦𝗘𝗥 𝗠𝗗🎅
 ┗━━━━━━━━━━━━━━━
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-❶ || Creator = 𖥘 YESSER TECH 𖥘
+🤶 W̶I̶S̶H̶E̶S̶ Y̶O̶U̶ 𝘩𝘢𝘱𝘱𝘺 
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-❷ || WhattsApp Channel = https://whatsapp.com/channel/0029VakA1mu35fM18opH1s30
+😍  𝘯𝘦𝘸  ༆*2025*༆ 𝘺𝘦𝘢𝘳
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-Please Follow My YouTube Channel
-🌛 https://www.youtube.com/@Yesserboy92
+🎅 𝘢𝘯𝘥 💚𝕞𝕒𝕣𝕣𝕪 𝕔𝕙𝕣𝕚𝕤𝕥𝕚𝕞𝕒𝕤💚
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-©*2024-2099 YESSER TECH_*`) 
+🙏𝚝𝚑𝚊𝚗𝚔𝚜 𝙶𝙾𝙳🙏.......❤️') 
 
    
 
