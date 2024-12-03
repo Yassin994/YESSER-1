@@ -28,7 +28,7 @@ zokou({ nomCom: 'uptime',
   async (dest, zk, commandeOptions) => {
     const { ms, arg, repondre } = commandeOptions;
 
-                 await repondre(`*_uptime of YESSER md  bot is: ${runtime(process.uptime())}_*`) 
+                 await repondre(`*_𝙮𝙚𝙨𝙨𝙚𝙧 𝙢𝙙 𝚞𝚙𝚝𝚒𝚖𝚎 𝚒𝚜: ${runtime(process.uptime())}_*`) 
 
    
 
