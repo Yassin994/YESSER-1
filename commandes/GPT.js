@@ -3,12 +3,8 @@ const traduire = require("../framework/traduction") ;
 const s = require('../set');
 const axios = require('axios');
 
-/* 
-Created By yesser tech
-Don't claim, okey 
-*/
 
-zokou({nomCom:"yesser1",reaction:"📡",categorie:"IA"},async(dest,zk,commandeOptions)=>{
+zokou({nomCom:"gpt1",reaction:"📡",categorie:"IA"},async(dest,zk,commandeOptions)=>{
 
   const {repondre,ms,arg}=commandeOptions;
   
