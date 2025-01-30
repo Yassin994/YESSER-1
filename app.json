@@ -2,7 +2,7 @@
   "name":"YESSER-MD",
   "description":"Best whatsapp bot created by king yesser",
   "keywords":["bot","node","baileys","whatsapp"],
-  "logo":"https://files.catbox.moe/7irwqn.jpeg",
+  "logo":"https://files.catbox.moe/71bknp.jpg",
   "repository":"https://github.com/Yassin994/YESSER-MD",
   "succes_url":"/",
   "stack":"container",
@@ -84,7 +84,7 @@
        "BOT_MENU_LINKS" : 
    {
     "description":"add one or many link for your bot menu  ; eg : url1,url2,url3.....",
-    "value":"https://files.catbox.moe/7irwqn.jpeg",
+    "value":"https://files.catbox.moe/71bknp.jpg",
     "required":false
        
      },
