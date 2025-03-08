@@ -1,8 +1,8 @@
-const { zokou } = require("../framework/zokou");
+const { ezra } = require("../fredi/ezra");
 
 let antiTagActive = false; // State of the anti-tag feature
 
-zokou({
+ezra({
   nomCom: "antitag",
   categorie: "General",
   reaction: "❤️"
@@ -47,7 +47,7 @@ zokou({
         console.log("Owner mentioned:", ownerJid); // Debug log if owner is detected
         // Send a warning message to the group or chat
         await zk.sendMessage(origineMessage.key.remoteJid, {
-          text: "⚠️ *DON'T TAG MY OWNER!*",
+          text: "😭🖕 *fuck you don't taging me!!*",
           mentions: [origineMessage.key.participant],
         });
       }
